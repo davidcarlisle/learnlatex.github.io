@@ -7,10 +7,12 @@ permalink: /AUTHORS
 
 111x
 
-<p>[{{  page.path | split: "/" | first }}] == [{{ page.lang }}]</p>
+{% asign fpath = page.path | split: "/" | first %}
+
+<p>[{{  fpath }}] == [{{ page.lang }}]</p>
 
 
-{% if page.path | split: "/" | first == page.lang %}
+{% if fpath == page.lang %}
 
 {% for l in site.data.languages %}
 
