@@ -5,12 +5,12 @@ title: Contributors
 permalink: /AUTHORS
 ---
 
-111
+111x
 
 <p>[{{  page.path | split: "/" | first }}] == [{{ page.lang }}]</p>
 
 
-{% if ((page.path | split: "/" | first) == page.lang) %}
+{% if page.path | split: "/" | first == page.lang %}
 
 {% for l in site.data.languages %}
 
