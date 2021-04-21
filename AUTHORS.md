@@ -5,9 +5,9 @@ title: Contributors
 permalink: /AUTHORS
 ---
 
-111x
+111xx
 
-{% asign fpath = page.path | split: "/" | first %}
+{% assign fpath = page.path | split: "/" | first %}
 
 <p>[{{  fpath }}] == [{{ page.lang }}]</p>
 
