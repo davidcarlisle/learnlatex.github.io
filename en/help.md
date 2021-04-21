@@ -10,8 +10,8 @@ permalink: /en/help
 
 {% for l in site.data.languages %}
 
-{% if l[language-code] != page.lang %}
-<p>{{  l[language-code] }}{{page.path | remove_first: page.lang}}</p>
+{% if l["language-code"] != page.lang %}
+<p>{{  l["language-code"] }}{{page.path | remove_first: page.lang}}</p>
 {% endif %}
 
 {% endfor %}
