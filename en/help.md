@@ -8,6 +8,8 @@ permalink: /en/help
 
 # Help
 
+{% if (page.path | split: "/" | first) == page.lang %}
+
 {% for l in site.data.languages %}
 
 {% if l["language-code"] != page.lang %}
@@ -15,6 +17,13 @@ permalink: /en/help
 {% endif %}
 
 {% endfor %}
+
+{% else %}
+
+english-only
+
+{% endif %}
+
 
 ## Navigating the site
 
