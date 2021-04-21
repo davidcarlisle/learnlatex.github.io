@@ -19,8 +19,8 @@ permalink: /en/help
 
 {% if l["language-code"] != page.lang %}
 <p>{{  l["language-code"] }}{{page.path | remove_first: page.lang}}<br>
-&lt;link rel="alternate" hreflang="{{l["language-code"]}}" href="{{page.path | remove_first: page.lang | remove_first: ".md" | absolute_url}}"><br>
-<link rel="alternate" hreflang="{{l["language-code"]}}" href="{{page.path | remove_first: page.lang | remove_first: ".md" | absolute_url}}">
+&lt;link rel="alternate" hreflang="{{l["language-code"]}}" href="{{page.path | replace_first: page.lang, l["language-code"] | remove_first: ".md" | absolute_url}}"><br>
+<link rel="alternate" hreflang="{{l["language-code"]}}" href="{{page.path | replace_first_first: page.lang, l["language-code"] | remove_first: ".md" | absolute_url}}">
 </p>
 {% endif %}
 
