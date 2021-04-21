@@ -2,7 +2,8 @@
 {% if fpath == page.lang %}
 {% for l in site.data.languages %}
 {% if l.language-code != page.lang %}
-<link rel="alternate" hreflang="{{l.language-code}}" href="{{page.path | replace_first_first: page.lang, l.language-code | remove_first: ".md" | absolute_url}}">
+<link zz="{{page.lang}" fp="{{fpath}}" rel="alternate" hreflang="{{l.language-code}}" href="{{page.path | replace_first_first: page.lang, l.language-code | remove_first: ".md" | absolute_url}}">
 {% endif %}
 {% endfor %}
 {% endif %}
+
