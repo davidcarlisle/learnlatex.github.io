@@ -8,7 +8,12 @@ permalink: /en/help
 
 # Help
 
-{% if (page.path | split: "/" | first) == page.lang %}
+{% assign fpath = page.path | split: "/" | first %}
+
+<p>[{{  fpath }}] == [{{ page.lang }}]</p>
+
+
+{% if fpath == page.lang %}
 
 {% for l in site.data.languages %}
 
