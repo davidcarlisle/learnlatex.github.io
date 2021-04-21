@@ -8,6 +8,11 @@ permalink: /en/help
 
 # Help
 
+{% for l in site.data.languages %}
+
+<p>{{  l }} {{page.path}}</p>
+
+{% endfor %}
 
 ## Navigating the site
 
