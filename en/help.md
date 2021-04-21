@@ -12,7 +12,7 @@ permalink: /en/help
 
 {% if l[language-code] != page.lang %}
 <p>{{  l[language-code] }}{{page.path | remove_first: page.lang}}</p>
-{% end if }
+{% end if %}
 
 {% endfor %}
 
