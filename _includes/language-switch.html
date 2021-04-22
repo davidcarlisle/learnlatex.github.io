@@ -7,7 +7,7 @@
       <!-- Checks page.lang not page path so top level files are en -->
         {% assign lang = language.language-code %}
       {%- if lang == page.lang -%}
-        <option"
+        <option
           selected
           value="{{language.language-code}}">
             {{ language.label-regional }}
