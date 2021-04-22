@@ -7,9 +7,9 @@
       <!-- Assigns language code to currently selected language -->
     {% assign lx="/" | prepend: language.language-code %}
     {% if page.path contains "/" %}
-    {%  assign toplvl=false %}
+    {%  assign toplvl = false %}
     {% else %}
-    {% assign toplvl-true %}
+    {% assign toplvl = true %}
     {% endif %}
       <!-- Checks URL path for currently selected language to mark it as 'selected' -->
         {% assign lang = language.language-code %}
