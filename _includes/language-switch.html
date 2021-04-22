@@ -1,4 +1,4 @@
-<div class="language-switch">
+<div class="language-switch aa">
   <select class="language-switch__select" id="myList" onchange="switchlang(this);">
     <!-- Assigns default language -->
     {% assign lang="en" %}
@@ -14,9 +14,9 @@
       <!-- Checks URL path for currently selected language to mark it as 'selected' -->
         {% assign lang = language.language-code %}
       {%- if page.path contains lx or toplvl and lang=="en"-%}
-        <option zzz1="{{ lx }}"
+        <option"
           selected
-          value="{{language.language-code}}">
+          value="{{language.language-code}}lx{{lx}},{{lang}}">
             {{ language.label-regional }}
             <!-- Ensures the translation of English is not displayed -->
             {% if language.language-code != "en" %}
@@ -25,8 +25,8 @@
         </option>
         <!-- Languages not found in URL path, will not be marked as 'selected' -->
         {%- else -%}
-        <option zzz2="{{ lx }}"
-          value="{{language.language-code}}">
+        <option
+          value="{{language.language-code}}lx2{{lx}},{{lang}}">
             {{ language.label-regional }}
             <!-- Ensures the translation of English is not displayed -->
             {% if language.language-code != "en" %}
