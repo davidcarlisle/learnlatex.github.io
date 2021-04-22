@@ -14,7 +14,7 @@
       <!-- Checks URL path for currently selected language to mark it as 'selected' -->
         {% assign lang = language.language-code %}
       {%- if page.path contains lx or toplvl and lang=="en"-%}
-        <option 
+        <option zzz1="{{ lx }}"
           selected
           value="{{language.language-code}}">
             {{ language.label-regional }}
@@ -25,7 +25,7 @@
         </option>
         <!-- Languages not found in URL path, will not be marked as 'selected' -->
         {%- else -%}
-        <option 
+        <option zzz2="{{ lx }}"
           value="{{language.language-code}}">
             {{ language.label-regional }}
             <!-- Ensures the translation of English is not displayed -->
