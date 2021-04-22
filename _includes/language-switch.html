@@ -5,9 +5,9 @@
       <!-- Checks page.lang not page path so top level files are en -->
         {% assign lang = language.language-code %}
         <option
-	  {%- if lang == page.lang -%}
+	  {% if lang == page.lang %}
           selected
-          {%- endif -%}
+          {% endif %}
           value="{{lang}}">
             {{ language.label-regional }}
             <!-- Ensures the translation of English is not displayed -->
