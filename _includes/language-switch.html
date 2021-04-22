@@ -4,19 +4,12 @@
     {% assign lang="en" %}
     <!-- Loop over languages in _data/languages.yml -->
     {%- for language in site.data.languages -%}
-      <!-- Assigns language code to currently selected language -->
-    {% assign lx="/" | prepend: language.language-code %}
-    {% if page.path contains "/" %}
-    {%  assign toplvl = false %}
-    {% else %}
-    {% assign toplvl = true %}
-    {% endif %}
-      <!-- Checks URL path for currently selected language to mark it as 'selected' -->
+      <!-- Checks page.lang not page path so top level files are en -->
         {% assign lang = language.language-code %}
-      {%- if page.path contains lx or toplvl and lang=="en"-%}
+      {%- if lang == page.lang -%}
         <option"
           selected
-          value="{{language.language-code}}lx{{lx}},{{lang}}">
+          value="{{language.language-code}}">
             {{ language.label-regional }}
             <!-- Ensures the translation of English is not displayed -->
             {% if language.language-code != "en" %}
@@ -26,7 +19,7 @@
         <!-- Languages not found in URL path, will not be marked as 'selected' -->
         {%- else -%}
         <option
-          value="{{language.language-code}}lx2{{lx}},{{lang}}">
+          value="{{language.language-code}}">
             {{ language.label-regional }}
             <!-- Ensures the translation of English is not displayed -->
             {% if language.language-code != "en" %}
