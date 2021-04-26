@@ -28,12 +28,15 @@
 
 
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
+
 
 /*----------------------------------------------------------------------------*/
 /*  # ROOT ELEMENT: VARIABLES - FONTS                                         */
 /*----------------------------------------------------------------------------*/
 :root {
-  --font_default-medium: 'NotoSans-Medium';
+  --font_default-medium: 'NotoSans-Medium', 'Noto Sans JP';
 }
 @font-face {
   font-family: 'NotoSans-Medium';
@@ -42,7 +45,7 @@
 }
 
 :root {
-  --font_default-medium-italic: 'NotoSans-MediumItalic';
+  --font_default-medium-italic: 'NotoSans-MediumItalic', 'Noto Sans JP';
 }
 @font-face {
   font-family: 'NotoSans-MediumItalic';
@@ -60,7 +63,7 @@
 }
 
 :root {
-  --font_default-regular: 'NotoSans-Regular';
+  --font_default-regular: 'NotoSans-Regular', 'Noto Sans JP';
 }
 @font-face {
   font-family: 'NotoSans-Regular';
@@ -87,7 +90,7 @@
 }
 
 :root {
-  --font_default-light: 'NotoSans-Light';
+  --font_default-light: 'NotoSans-Light', 'Noto Sans JP';
 }
 @font-face {
   font-family: 'NotoSans-Light';
