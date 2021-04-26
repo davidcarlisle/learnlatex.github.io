@@ -40,6 +40,7 @@ See also the examples in [The Japanese specific section of the site](language-01
 English example:
 
 ```latex
+% !TeX pdflatex
 \documentclass{article}
 \usepackage[T1]{fontenc}
 \begin{document}
