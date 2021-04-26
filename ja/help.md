@@ -25,6 +25,14 @@ Japanese examples look like:
 \end{document}
 ```
 
+or with no comment!!
+```latex
+\documentclass{jsarticle}
+\begin{document}
+テキストの例。
+\end{document}
+```
+
 See also the examples in [The Japanese specific section of the site](language-01)
 
 ## English

@@ -10,3 +10,6 @@ runlatex.texts ={
     "End Added Code":   "End Added code",
     "Top Caption":      "Edit and run this example:"
 }
+
+var rldefaultengine=getCookie('runlatex-engine');
+if(rldefaultengine=="") rldefaultengine="platex";
