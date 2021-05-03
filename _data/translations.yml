@@ -261,5 +261,5 @@ navigational-elements_toc:
 
 # optional list of localised numbers 0-20 (fr alphabetic just for testing)
 navigational-elements_digits:
-  fr: "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t"
+  fr: "*,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t"
   mr: "०,१,२,३,४,५,६,७,८,९,१०,११,१२,१३,१४,१५,१६,१७"
