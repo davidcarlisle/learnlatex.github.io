@@ -43,6 +43,10 @@
   label-regional: Tiếng&nbsp;Việt
   label-english: Vietnamese
 
+- language-code: zh-hans
+  label-regional: Chinese (zh-hans)
+  label-english: Chinese (simplified)
+
 # - language-code: tr
 #   label-regional: Türkçe
 #   label-english: Turkish
