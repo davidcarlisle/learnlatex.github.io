@@ -1,6 +1,6 @@
 ---
 layout: "lesson"
-lang: "en"
+lang: "zh-hans"
 title: "More on: Basic LaTeX document structure"
 description: "This lesson gives more detail on how to run LaTeX, and the special characters it uses and how to insert them in the output PDF."
 toc-anchor-text: "More on: Basic LaTeX document structure"

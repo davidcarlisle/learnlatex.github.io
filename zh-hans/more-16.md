@@ -1,6 +1,6 @@
 ---
 layout: "lesson"
-lang: "en"
+lang: "zh-hans"
 title: "More on: Accessing documentation and getting help"
 description: "This lesson show you where you can find the sources of LaTeX itself."
 toc-anchor-text: "More on: Accessing documentation and getting help"

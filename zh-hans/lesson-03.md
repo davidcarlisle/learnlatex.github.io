@@ -1,6 +1,6 @@
 ---
 layout: "lesson"
-lang: "en"
+lang: "zh-hans"
 title: "Basic LaTeX document structure"
 description: "This lesson shows the basic structure of a LaTeX document, and how to build it into a PDF file, as well as the main special characters used to control LaTeX."
 toc-anchor-text: "Document structure"

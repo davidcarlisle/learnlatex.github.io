@@ -1,6 +1,6 @@
 ---
 layout: "page"
-lang: "en"
+lang: "zh-hans"
 title: Site Settings
 permalink: /en/settings
 ---

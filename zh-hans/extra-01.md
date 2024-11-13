@@ -1,6 +1,6 @@
 ---
 layout: "lesson"
-lang: "en"
+lang: "zh-hans"
 title: "LaTeX Showcase - Examples for further study"
 description: "This lesson shows assorted examples of other popular LaTeX packages that were not covered in the main lessons."
 toc-anchor-text: "LaTeX Showcase"

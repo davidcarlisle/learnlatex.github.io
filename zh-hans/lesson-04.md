@@ -1,6 +1,6 @@
 ---
 layout: "lesson"
-lang: "en"
+lang: "zh-hans"
 title: "Logical structure"
 description: "This lesson shows some basic formatting commands, and compares them with semantic formatting with sectioning commands and lists."
 toc-anchor-text: "Logical structure"

@@ -1,6 +1,6 @@
 ---
 layout: "page"
-lang: "en"
+lang: "zh-hans"
 title: Mission
 permalink: /en/mission
 ---
