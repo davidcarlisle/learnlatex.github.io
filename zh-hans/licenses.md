@@ -2,7 +2,7 @@
 layout: "page"
 lang: "zh-hans"
 title: Licenses
-permalink: /en/licenses
+permalink: /zh-hans/licenses
 ---
 
 # Licenses

@@ -2,7 +2,7 @@
 layout: "page"
 lang: "zh-hans"
 title: Contact
-permalink: /en/contact
+permalink: /zh-hans/contact
 ---
 
 # Contact

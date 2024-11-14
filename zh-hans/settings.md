@@ -2,7 +2,7 @@
 layout: "page"
 lang: "zh-hans"
 title: Site Settings
-permalink: /en/settings
+permalink: /zh-hans/settings
 ---
 # Site Settings (User Preferences)
 

@@ -2,7 +2,7 @@
 layout: "page"
 lang: "zh-hans"
 title: Privacy Policy
-permalink: /en/privacy
+permalink: /zh-hans/privacy
 ---
 # Privacy Policy
 
