@@ -18,8 +18,8 @@ toc-description: "文档的基本结构。"
 
 如果你使用的是在线系统，只需点击示例中的“在 TeXLive.net 运行”或“在 Overleaf 中打开”按钮即可试用！
 
-<p
-  class="hint">我们建议你即使已经在本地设置了 LaTeX，也尝试在线选项；这是一个了解不同选项如何工作的好机会。</p>
+我们建议你即使已经在本地设置了 LaTeX，也尝试在线选项；这是一个了解不同选项如何工作的好机会。
+{: .hint :}
 
 ```latex
 % !TEX program=lualatex
@@ -33,7 +33,8 @@ Hello, world!
 \end{document}
 ```
 
-<p class="hint">当你使用 ctexart（或其他ctex文档类）时，无需加载 xeCJK 宏包（`\usepackage{xeCJK}`）。现代TeX引擎会根据需要自动加载对应的CJK宏包，简单的 ctexart 文档应该在所有引擎上都能正常工作。在编译 LaTeX 文档时最好使用 LuaLaTeX 引擎，不仅因为它在处理大型文档时更快，而且它是被推荐的编译引擎(https://www.texdev.net/2024/11/05/engine-news-from-the-latex-project)。</p>
+当你使用 ctexart（或其他ctex文档类）时，无需加载 xeCJK 宏包（`\usepackage{xeCJK}`）。现代TeX引擎会根据需要自动加载对应的CJK宏包，简单的 ctexart 文档应该在所有引擎上都能正常工作。在编译 LaTeX 文档时最好使用 LuaLaTeX 引擎，不仅因为它在处理大型文档时更快，而且它是被推荐的编译引擎(https://www.texdev.net/2024/11/05/engine-news-from-the-latex-project)。
+{: .hint :}
 
 保存文件并将其排版为PDF文档；如果你使用的是本地 LaTeX 安装，具体的按钮取决于你选择的编辑器。你应该会得到一个包含上述文本 _加上_ 页码的PDF文件；LaTeX 会自动添加页码。
 
