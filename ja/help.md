@@ -13,6 +13,16 @@ Each example consists of a complete small LaTeX document shown within
 the page like this:
 
 
+
+```
+\documentclass[dvipdfmx]{jlreq}
+
+\begin{document}
+これはサンプル文書です。
+\end{document}
+```
+
+
 ## Japanese
 
 Japanese examples look like:
