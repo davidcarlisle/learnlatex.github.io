@@ -3,8 +3,8 @@ layout: "tagging"
 lang: "en"
 title: "Tagging Mathematics with LaTeX"
 description: "This lesson shows the basic decarations needed for tagging mathematics"
-toc-anchor-text: "Tagged Document structure"
-toc-description: "The basic declarations for tagged PDF."
+toc-anchor-text: "Tagged Mathematics"
+toc-description: "The basic declarations for math in tagged PDF."
 ---
 
 # Tagging Mathematics
