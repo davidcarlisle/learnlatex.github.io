@@ -34,6 +34,36 @@
     {% endif %}
   {% endif %}
 
+  {% if page.path contains "tagging-" %}
+
+    <!-- Table of contents link start -->
+    <a
+      class="inter-lesson-navigation__anchor inter-lesson-navigation__anchor--toc"
+      href="{{ "/" | absolute_url | append: page.lang | append: "/" }}#toc"
+      >{{ site.data.translations['navigational-elements_toc'][page.lang] }}</a>
+    <!-- Table of contents link end -->
+    
+  {% if page.path contains "tagging-02" %}
+      <!-- FIXME: https://github.com/learnlatex/learnlatex.github.io/issues/107 -->
+      <a 
+        class="inter-lesson-navigation__anchor inter-lesson-navigation__anchor--next"
+        href="language-01"
+        >{{ site.data.translations['navigational-elements_next'][page.lang] }}</a>
+    {% else %}
+        {% if page.name contains "tagging-1" or page.name contains "tagging-09" %}
+          <a 
+            class="inter-lesson-navigation__anchor inter-lesson-navigation__anchor--next"
+            href="tagging-{{page.name | remove_first: "tagging-" | remove_first: ".md" | plus: 1}}"
+            >{{ site.data.translations['navigational-elements_next'][page.lang] }}</a>
+        {% else %}
+          <a 
+            class="inter-lesson-navigation__anchor inter-lesson-navigation__anchor--next"
+            href="tagging-0{{page.name | remove_first: "tagging-" | remove_first: ".md" | plus: 1}}"
+            >{{ site.data.translations['navigational-elements_next'][page.lang] }}</a>
+        {% endif %}
+    {% endif %}
+  {% endif %}
+
   {% if page.path contains "more-" %}
     <!-- Table of contents link start -->
     <a
