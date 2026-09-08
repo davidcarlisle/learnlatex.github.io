@@ -1,13 +1,13 @@
 ---
 layout: "tagging"
 lang: "en"
-title: "Tagging with LaTeX"
+title: "Generating Tagged PDF with LaTeX"
 description: "This lesson shows the basic decarations needed for Tagged PDF in a LaTeX document."
 toc-anchor-text: "Tagged Document structure"
 toc-description: "The basic declarations for tagged PDF."
 ---
 
-# LaTeX document structure
+# Generating Tagged PDF with LaTeX
 
 <span
   class="summary">This lesson shows the basic declarations needed to generate Tagged PDF with LaTeX.</span>
