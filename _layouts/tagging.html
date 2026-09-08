@@ -109,7 +109,7 @@ runlatex.editorlines=20;
                 {% assign pageno = page.path | replace: '.md','' | remove_first: language | remove_first: '/' | replace: 'tagging-' ,'' | replace: 'more-' ,'' | replace: 'language-', '' | replace: 'extra-', '' | floor %}
                 {{ localdigits[pageno] }}
               {% else %}
-	  {{ page.path | replace: '.md','' | remove_first: language | remove_first: '/' | replace: 'lesson-' ,'' | replace: 'more-' ,'' | replace: 'language-', '' | replace: 'extra-', '' | round: 2 }}
+	  {{ page.path | replace: '.md','' | remove_first: language | remove_first: '/' | replace: 'tagging-' ,'' | replace: 'more-' ,'' | replace: 'language-', '' | replace: 'extra-', '' | round: 2 }}
 	{% endif %}</span>
         <!-- meta lesson information end -->
 
