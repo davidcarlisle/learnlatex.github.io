@@ -1,0 +1,69 @@
+---
+layout: "tagging"
+lang: "en"
+title: "Tagging Mathematics with LaTeX"
+description: "This lesson shows the basic decarations needed for tagging mathematics"
+toc-anchor-text: "Tagged Document structure"
+toc-description: "The basic declarations for tagged PDF."
+---
+
+# Tagging Mathematics
+
+<span
+  class="summary">This lesson shows the basic declarations fro tagging mathematics.</span>
+
+Something about AF and SE and derivation to HTML+MathML 
+
+
+
+```latex
+\DocumentMetadata
+  {
+    lang=en-US,
+    pdfstandard=ua-2,
+    tagging=on,
+    tagging-setup={math/setup=mathml-SE}
+  }
+%\tagpdfsetup{math/alt/use} % alt text, not recommended!
+\documentclass{article}
+\usepackage{lua-unicode-math}
+
+\title{Tagging of Math}
+
+\begin{document}
+\section{Quadratic Formula}
+The solutions to $ax^2+bx+c=0$ are
+\[
+x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}
+\]
+
+\section{Arithmetic}
+Absolute values.
+\[ \lvert -1\rvert = 1 \]
+
+
+\section{Matrix Multiplication}
+\[
+  \begin{pmatrix}
+    1&2\\3&4
+  \end{pmatrix}
+  \begin{pmatrix}
+    1&1\\0&1
+  \end{pmatrix}
+   =
+  \begin{pmatrix}
+    1&3\\3&7
+  \end{pmatrix}
+\]
+
+
+\section{Simultaneous Equations}
+The equations
+\begin{align}
+  2x+y&=3\\
+  x-y&=0
+\end{align}
+have solution $x=y=1$.
+\end{document}
+```
+
