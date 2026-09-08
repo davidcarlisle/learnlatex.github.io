@@ -10,7 +10,7 @@ toc-description: "The basic declarations for tagged PDF."
 # Tagging Mathematics
 
 <span
-  class="summary">This lesson shows the basic declarations fro tagging mathematics.</span>
+  class="summary">This lesson shows the basic declarations for tagging mathematics.</span>
 
 Something about AF and SE and derivation to HTML+MathML 
 
