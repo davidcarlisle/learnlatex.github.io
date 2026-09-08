@@ -31,6 +31,12 @@ permalink: /en/
 
 {% include toc-lessons.html prefix="en/lesson" %}
 
+<h2 class="heading__toc" id="toc-tagging">Additional Lessons for Tagged PDF</h2>
+
+<p class="paragraph__toc">We have included a <b>More on this topic</b> page for each lesson. This extra information is there to support you when you need the detail, but should not get in your way if you don't.</p>
+
+{% include toc-lessons.html prefix="en/tagging" %}
+
 <h2 class="heading__toc">Additional lessons</h2>
 <ul class="lessons-toc">
   {% include toc-additional-lessons.html prefix="en/language" %}
