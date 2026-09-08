@@ -106,7 +106,7 @@ runlatex.editorlines=20;
           class="meta"
           >{{ site.data.translations['informational-elements_lesson'][page.lang] }}
               {% if localdigits %}
-                {% assign pageno = page.path | replace: '.md','' | remove_first: language | remove_first: '/' | replace: 'lesson-' ,'' | replace: 'more-' ,'' | replace: 'language-', '' | replace: 'extra-', '' | floor %}
+                {% assign pageno = page.path | replace: '.md','' | remove_first: language | remove_first: '/' | replace: 'tagging-' ,'' | replace: 'more-' ,'' | replace: 'language-', '' | replace: 'extra-', '' | floor %}
                 {{ localdigits[pageno] }}
               {% else %}
 	  {{ page.path | replace: '.md','' | remove_first: language | remove_first: '/' | replace: 'lesson-' ,'' | replace: 'more-' ,'' | replace: 'language-', '' | replace: 'extra-', '' | round: 2 }}
